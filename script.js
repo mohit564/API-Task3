@@ -1,6 +1,5 @@
 function shortURL() {
   const url = document.getElementById("url").value.trim();
-  console.log(url);
   fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
     .then((response) => response.json())
     .then((data) => {
