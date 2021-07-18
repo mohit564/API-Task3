@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+button {
+  margin: 1em auto;
+  width: 100%;
+  padding: 0.5em;
+  background: #4392fd;
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 2px;
+}
+label {
+  color: rgb(100, 100, 100);
+}
+input {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid black;
+  padding: 1rem;
+}
